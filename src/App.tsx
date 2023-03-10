@@ -75,7 +75,18 @@ function App() {
         onKeyPress={onKeyPress}
       ></Input>
 
-      <div className="text">
+      {/* /* .text {
+  background-color: rgb(209, 209, 209);
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(black, 0.2), 0 0 15px rgba(black, 0.2);
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-top: 50px;
+} */}
+      <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        Hello world! 123
+      </div>
+      <div className="p-8">
         <Highlighter highlight={search} css={css}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
