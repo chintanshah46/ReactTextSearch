@@ -27,8 +27,7 @@ const Highlighter: FC<HighlighterProps> = (data) => {
         let match = matches ? matches[i] : '';
         if (i !== parts.length - 1) {
           while (parts[i + 1] === '') {
-            // match += matches[++i];
-            match += matches ? matches[i] : '';
+            match += matches ? matches[++i] : '';
           }
 
           elements[i] = (
