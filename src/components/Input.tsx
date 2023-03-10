@@ -1,9 +1,4 @@
-import React, {
-  FC,
-  InputHTMLAttributes,
-  ChangeEventHandler,
-  RefObject,
-} from 'react';
+import React, { FC, InputHTMLAttributes, RefObject } from 'react';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
